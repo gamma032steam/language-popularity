@@ -43,8 +43,8 @@ import org.slf4j.LoggerFactory;
  *   --stagingLocation=<STAGING_LOCATION_IN_CLOUD_STORAGE>
  *   --runner=DataflowRunner
  */
-public class StarterPipeline {
-  private static final Logger LOG = LoggerFactory.getLogger(StarterPipeline.class);
+public class LanguagePipeline {
+  private static final Logger LOG = LoggerFactory.getLogger(LanguagePipeline.class);
 
   public static void main(String[] args) {
     Pipeline p = Pipeline.create(
@@ -63,7 +63,7 @@ public class StarterPipeline {
         LOG.info(c.element());
       }
     }));
-
+    System.out.println("Hey, I'm actually running");
     p.run();
   }
 }
