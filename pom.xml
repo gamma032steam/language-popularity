@@ -30,6 +30,9 @@
     <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
     <maven-exec-plugin.version>1.6.0</maven-exec-plugin.version>
     <slf4j.version>1.7.30</slf4j.version>
+
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <repositories>
